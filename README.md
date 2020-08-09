@@ -27,6 +27,8 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 "
+"autocmd TextChanged,TextChangedI * silent write
+autocmd TextChanged,TextChangedI <buffer> silent write
 set nu
 set ttimeoutlen=10 "Понижаем задержку ввода escape последовательностей
 set tabstop=2
