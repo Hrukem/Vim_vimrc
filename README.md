@@ -48,4 +48,4 @@ map <F2> <Esc>:NERDTree<CR>
 set hls
 inoremap jj <Esc>
 set fileformat=unix
-set guifont=Ubuntu\ Mono\ Bold\ 14
+set guifont=Ubuntu\ Mono\ Bold\ 12
